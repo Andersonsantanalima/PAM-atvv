@@ -14,8 +14,40 @@ export default function Adidas () {
             source={Add1}
          style={styles.imagems}
            >
-          <Text> Adidas Coreracer Masculino</Text>    
-            <Text> R$ 179,99</Text>
+          <Text style={styles.texto}> Adidas Coreracer Masculino</Text>    
+            <Text style={styles.texto}> R$ 179,99</Text>
+           </ImageBackground>
+
+           <ImageBackground
+            source={Add2}
+         style={styles.imagems}
+           >
+          <Text style={styles.texto}> Adidas Breaknet Masculino</Text>    
+            <Text style={styles.texto}>R$ 208,99</Text>
+           </ImageBackground>
+
+           <ImageBackground
+              source={Add3}
+              style={styles.imagems}
+           >
+            <Text style={styles.texto}>Adidas Lite Racer Rebold 1</Text>    
+            <Text style={styles.texto}>R$ 379,99</Text>
+           </ImageBackground>
+
+           <ImageBackground
+            source={Add4}
+         style={styles.imagems}
+           >
+          <Text style={styles.texto}>Adidas Lite Racer Rebold 2</Text>    
+            <Text style={styles.texto}> R$ 329,05</Text>
+           </ImageBackground>
+
+           <ImageBackground
+            source={Add5}
+         style={styles.imagems}
+           >
+          <Text style={styles.texto}> Adidas Lite Racer Rebold 3</Text>    
+            <Text style={styles.texto}>R$ 218,49</Text>
            </ImageBackground>
         </ScrollView>
 

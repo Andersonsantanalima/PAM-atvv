@@ -8,18 +8,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     },
-    familia_icones:{
-    backgroundColor: '#ccc',
-    borderRadius:5,
-    width:'90%',
-    marginBottom: 20,
-    padding: 15
-    },
     imagems:{
      width: 420 ,
      height: 300, 
-     alignItems:'center'
-    }
+     marginTop:50,
+     alignItems:'center',
+     justifyContent: "space-between"
+    },
+ texto:{
+   textAlign: 'center',
+   backgroundColor: 'red',
+  margin:7,
+ },
+ valor:{
+  textAlign: 'center',
+  backgroundColor: 'red',
+  marginTop:7,
+ 
+}
   });
 
   export default styles;
